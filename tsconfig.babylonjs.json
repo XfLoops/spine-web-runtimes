@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"module": "none",
+		"noImplicitAny": true,
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"outFile": "build/spine-babylonjs.js",
+		"sourceMap": true,
+		"declaration": true,
+		"target":"es5"
+	},
+	"include": [
+		"core/src/**/*",
+		"babylonjs/src/**/*"
+	],
+	"exclude": [
+		"canvas",
+		"webgl",
+		"threejs",
+		"widget",
+		"build"
+	]
+}
